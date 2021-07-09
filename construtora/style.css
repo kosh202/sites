@@ -1,0 +1,393 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  margin: 0px;
+  font-size: 2vw;
+}
+
+#cabecalho h1{
+  position: relative;
+  left: 7vw;
+  bottom: 1vw;
+}
+
+#logoimg{
+  position: relative;
+  left: 2vw;
+  bottom: -2vw;
+  border-radius: 50%;
+  width: 4vw;
+}
+
+.tirarscroll{
+  overflow: hidden;
+}
+
+body {
+  font-family: Candara, Helvetica, sans-serif;
+  margin: 0;
+  padding: 10px 50px 50px 50px;
+  height: 100%;
+  background-color: rgba(238, 215, 167, 0.205);
+}
+
+#menu {
+  position: relative;
+  width: 36vw;
+  display: flex;
+  justify-content: center;
+  float: right;
+  bottom: 3vw;
+  font-size: 127%;
+}
+
+#menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 14px;
+  transition: background-color 0.2s;
+}
+
+#menu a:hover{
+  background-color: rgba(8, 211, 8, 0.199);
+}
+
+.card {
+  border-radius: 2px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+#coluna-direita{
+  position: relative;
+  height: 59vw;
+  left: 2vw;
+  float: right;
+  width: 75%;
+}
+
+.projetos {
+  position: relative;
+  bottom: 1vw;
+  right: 7vw;
+  text-align: center;
+  width: 79vw;
+}
+
+.projetos img {
+  height: 17vw;
+  margin: 21px 1px 6px 4px;
+  position: relative;
+  right: 1vw;
+}
+
+#fotomaior img{
+  position: relative;
+  width: 55vw;
+  right: 4vw;
+}
+
+.contatos{
+  position: relative;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 11vw;
+  left: 54vw;
+  justify-content: center;
+  bottom: 31vw;
+  padding: 7px 6px 13px 9px;
+  background-color: rgba(220, 248, 222, 0.842);
+}
+
+#titulocontatos{
+  display: flex;
+  position: relative;
+  padding: 2px;
+  width: 8vw;
+  justify-content: center;
+}
+
+.contatos img{
+  padding: 6px 7px 7px 8px;
+}
+
+.coluna-esquerda{
+  float: left;
+  width: 25%;
+  padding-left: 29px;
+}
+
+.sobrenos{
+  position: relative;
+  width: 15vw;
+  background-color: rgba(220, 248, 222, 0.842);
+  border: 2px solid black;
+}
+
+#pessoas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sobrenos img {
+  position: relative;
+  left: 2%;
+  width: 80px;
+  border-radius: 24%;
+  margin: 6px 9px -2px 3px;
+}
+
+.flex{
+  position: relative;
+  width: 16vw;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px 8px 6px 9px;
+}
+
+.titulo{
+  background-color: rgba(17, 16, 16, 0.644);
+  position: relative;
+  width: 10vw;
+  bottom: -4vw;
+  font-weight: bold;
+  font-size: 2ch; 
+  color: rgb(226, 226, 226);
+}
+
+#tambembox{
+  padding: 2px 2px 2px 2px;
+  justify-content: center;
+  width: 70%;
+  background-color: rgba(220, 248, 222, 0.842);
+}
+
+#tambembox h2{
+  position: relative;
+  justify-content: center;
+  left: 4%;
+}
+
+.box{
+  padding: 4px 2px 2px 2px;
+  height: 8vw;
+  width: 12vw;
+  margin: 8px;
+}
+
+.box:hover{
+  box-shadow: 5px 10px 15px #888888;
+  cursor: pointer;
+}
+
+#fundo1{
+  background-image: url(imagens/stand.jpg);
+  background-size: 100%;
+}
+
+#fundo2{
+  background-image: url(imagens/comercial.jpg);
+  background-size: 100%;
+}
+
+#fundo3{
+  background-image: url(imagens/residencias.jpg);
+  background-size: 100%;
+}
+
+#fundo4{
+  background-image: url(imagens/maisobras.jpg);
+  background-size: 100%;
+}
+
+.rodape{
+  position: relative;
+  border: 2px solid slateblue;
+  bottom: -1vw;
+  display: flex;
+  flex-wrap: wrap;
+  width: 93vw;
+  background-image: url(imagens/fundorodape.jpg);
+  background-size: 100%;
+  left: 0vw;
+  font-size: 129%;
+  justify-content: center;
+  }
+
+  .telefones{
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2vw 2vw 0vw 2vw;
+    color: rgb(0, 0, 0);
+    background-color: rgba(238, 215, 167, 0.678);
+  }
+
+  .telefones li{
+    padding: 5px;
+  }
+
+  .telefones li:hover{
+    cursor: pointer;
+  }
+
+  .links{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 2vw 2vw 0vw 2vw;
+    background-color: rgba(238, 215, 167, 0.678);
+  }
+  
+  .links p:hover{
+    cursor: pointer;
+  }
+  
+  #quemsomos{
+    border: 2px solid black;
+    width: 28vw;
+    overflow: hidden;
+    height: 18vw;
+    margin: 2vw 2vw 0vw 2vw;
+    background-color: rgba(238, 215, 167, 0.678);
+  }
+  
+  #textao{
+    height: 90%;
+    overflow: scroll;
+    scroll-snap-type-y: initial;
+}
+
+@media screen and (max-width: 800px){
+
+  body{
+    padding: 1px 5px 5px 5px;
+    display: grid;
+  }
+
+  h1, h2{
+    font-size: 159%;
+  }
+
+  #cabecalho{
+    padding: 8vw 2vw 2vw 2vw;
+  }
+
+  #cabecalho img{
+    width: 11%;
+    position: relative;
+    float: left;
+    left: 15%;
+    bottom: 6vw;
+  }
+
+  #cabecalho h1{
+    display: flex;
+    left: 21%;
+    
+  }
+
+  #menu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    right: 27%;
+    bottom: -1vw;
+  }
+
+  #coluna-direita{
+    width: 100%;
+    height: 2%;
+  }
+
+  .projetos{
+    display: grid;
+    left: 7vw;;
+  }
+
+  .projetos img{
+    height: 34vw;
+  }
+
+  #fotomaior img{
+    left: 12vw;
+    width: 67vw;
+  }
+
+  .contatos{
+    width: 91%;
+    bottom: -8vw;
+    left: 2%;
+    display: block;
+  }
+
+  #titulocontatos{
+    bottom: 0vw;
+    left: 42%;
+  }
+
+  .contatos img{
+    position: relative;
+    bottom: -26%;
+    right: -13%;
+    padding: 12px;
+  }
+
+  .coluna-esquerda{
+   width: 100%;
+   position: relative;
+  }
+
+  .sobrenos {
+    width: 78%;
+    right: -8%;
+    bottom: -4vw;
+  }
+
+  #tambembox{
+    width: 91%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box{
+    height: 39vw;
+    width: 66vw;
+  }
+
+  .titulo{
+    width: 60%;
+    bottom: -60%;
+  }
+  
+  .rodape{
+    width: 100%;
+    background-image: url(imagens/fundorodape2.jpg);
+    background-size: 100%;
+  }
+
+  #quemsomos{
+    width: 91%;
+    height: 61vw;
+  }
+  
+  #quemsomos h2{
+    margin: 5px;
+  }
+
+  .links{
+    width: 100%;
+  }
+
+  .telefones{
+    width: 100%;
+  }
+}
